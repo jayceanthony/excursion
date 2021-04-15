@@ -1,0 +1,40 @@
+/* This is the Grid Layout */
+
+.body{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 3fr 1fr 3fr 2fr .3fr;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+}
+
+.head{
+    grid-area: 1 / 1 / 2 / 4;
+    background-color: blueviolet;
+}
+
+.phone{
+    grid-area: 2 / 1 / 2 / 4;
+    background-color: coral;
+}
+
+.guide{
+    grid-area: 3 / 1 / 4 / 4;
+    background-color: cadetblue;
+}
+
+.camp{
+    grid-area: 4 / 1 / 5 / 4;
+    background-color:crimson;
+}
+
+.mobile{
+    grid-area: 5 / 1 / 6 / 4;
+    background-color:thistle
+}
+
+.foot{
+    grid-area: 6 / 1 / 7 / 4;
+    background-color:turquoise;
+
+}
