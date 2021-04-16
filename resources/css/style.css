@@ -3,7 +3,7 @@
 .body{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: .5fr 3fr .5fr 3fr .5fr .3fr;
+  grid-template-rows: .5fr 3fr .5fr 2.5fr .5fr .3fr;
   grid-auto-rows: minmax(100px, auto);
   text-align: center;
   background-color: black;
@@ -39,4 +39,19 @@
 .font{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+}
+
+#download{
+    font-size: 16px;
+    color: aquamarine;
+}
+
+.gray{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+
+.rightalign{
+    text-align: right;
 }
